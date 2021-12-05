@@ -17,3 +17,5 @@ jQuery(document).ready(function( $ ) {
         e.preventDefault();
     });
 });
+
+// we use javascript to controll the nav bar 

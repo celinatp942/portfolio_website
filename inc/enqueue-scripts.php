@@ -55,5 +55,7 @@ function add_styles() {
   wp_enqueue_style( "style", get_stylesheet_uri());
   wp_enqueue_style( "home", get_theme_file_uri('/css/home.css'));
   wp_enqueue_style( "header", get_theme_file_uri('/css/header.css'));
+  wp_enqueue_style( "phone", get_theme_file_uri('/css/phone.css'));
+  // this part is kinda important 
 }
 add_action('wp_enqueue_scripts', 'add_styles');

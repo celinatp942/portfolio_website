@@ -5,4 +5,6 @@
   $home_top_desc = 'home_top_desc';
   $example_section = 'example_section';
   $example_repeater = 'example_repeater';
+  // do this whenever u add variables 
+  $project_section = "project_section"; 
 ?>

@@ -40,3 +40,5 @@
 </div>
 
 <?php get_footer(); ?>
+
+// to add a page you have to make the name page-smth for it or else it won't work

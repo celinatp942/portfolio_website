@@ -7,7 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Example Website Title</title>
 </head>
+ 
 <body>
+    <div class="navbar">
+       
+           <a class="name" href="./index">Celina Pan</a>
+           <ul class="links">
+               <li><a href="#about-me-container">About</a></li>
+               <li><a href="#projects-container">Projects</a></li>
+               <li><a href="#experience-container">Experience</a></li>
+           </ul>
+       
+   </div>
+
+    <!-- 
     <div class="container">
         <div class="navbar">
             <div class="flex nav-flex">
@@ -21,7 +34,7 @@
                     <span></span>
                 </div>
             </div>
-                <?php  
+            <?php  
                 wp_nav_menu( $args = array(
                     'menu_class'        => "nav-links", // (string) CSS class to use for the ul element which forms the menu. Default 'menu'.
                     'container'         => "div", // (string) Whether to wrap the ul, and what to wrap it with. Default 'div'.
@@ -33,4 +46,8 @@
                 ?>
                 
             </div>
-        </div>
+        </div> 
+     -->
+
+
+
